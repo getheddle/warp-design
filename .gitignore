@@ -1,0 +1,20 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Local-only scratch
+scratch/
+notes-private/
+
+# Build artifacts (in case any prototype lands here)
+.build/
+DerivedData/
+*.xcodeproj/
+Package.resolved
