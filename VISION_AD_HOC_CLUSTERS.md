@@ -1,6 +1,7 @@
 # The Future of AI Compute: Ad-Hoc Personal & SMB Clusters
 
-**Status:** Vision (committed direction, implementation underway via warp).
+**Status:** Vision (committed direction; pre-implementation — `warp`
+repo and Swift daemon-core are scoped but not yet built).
 **Date:** 2026-04-29.
 **Audience:** Anyone considering heddle's direction, contributing to warp,
 or evaluating whether this approach fits their environment.

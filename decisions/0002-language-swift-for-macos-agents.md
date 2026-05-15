@@ -1,9 +1,12 @@
 # 0002. Swift for the macOS daemon (warp v0 + macOS agents)
 
 - **Date:** 2026-04-29
-- **Status:** Accepted (for macOS only; Linux/Windows agent language is a
-  separate decision, expected to land as Rust per the language-asymmetry
-  preference established here)
+- **Status:** Accepted
+
+> Scope note: This ADR decides the **macOS** agent language. The
+> Linux/Windows agent language is a separate decision, expected to
+> land as Rust per the language-asymmetry preference established
+> below.
 - **Deciders:** Hooman (principal — has prior Swift experience), Claude
   Code (sparring partner)
 

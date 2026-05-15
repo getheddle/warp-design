@@ -18,3 +18,9 @@ notes-private/
 DerivedData/
 *.xcodeproj/
 Package.resolved
+
+# Toolkit-installed skills and subagents — managed by heddle-agent-toolkit/install.sh
+.claude/skills/
+.claude/agents/heddle-architect.md
+.claude/agents/heddle-contract-reviewer.md
+.claude/agents/heddle-invariant-guard.md

@@ -67,10 +67,13 @@ copy) — the version here may run ahead of it during exploration.
 ## Conventions
 
 - **Dates:** ISO 8601, YYYY-MM-DD.
-- **ADRs:** Numbered `NNNN-kebab-case-title.md`. Standard sections:
-  Status, Context, Decision, Consequences. See
+- **ADRs:** Numbered `NNNN-kebab-case-title.md`. Front matter:
+  `Date` (ISO 8601), `Status` (one of *Proposed* / *Accepted* /
+  *Superseded by [...]* / *Rejected*), `Deciders`. Body sections:
+  *Context*, *Decision*, *Consequences* (with **Easier** / **Harder** /
+  **Trade-offs accepted** sub-blocks), *References*. See
   [`decisions/0001-pursue-ad-hoc-cluster-orchestration.md`](decisions/0001-pursue-ad-hoc-cluster-orchestration.md)
-  for the format.
+  for the canonical format example.
 - **Evolution log:** Append-only, newest entries at the bottom. Each
   entry stamped with date + short title.
 - **Markdown:** GitHub-flavored. Diagrams as ASCII first; if a diagram
