@@ -44,6 +44,12 @@ named in this doc come from there.
 - `README.md` — repo purpose and conventions.
 - `VISION_AD_HOC_CLUSTERS.md` — the headline thesis and phased plan.
 - `EVOLUTION_LOG.md` — chronological record of insights and decisions.
+  **This repo intentionally does not have a `CHANGELOG.md`** — it
+  produces no released artifacts. `EVOLUTION_LOG.md` plus the
+  numbered ADRs in `decisions/` serve as the durable design-history
+  log. Sibling repos in the family (`heddle`, `heddle-sdk`,
+  `heddle-agent-toolkit`) do maintain `CHANGELOG.md` files for
+  behavioural changes.
 - `decisions/` — ADRs (numbered, `NNNN-kebab-case-title.md`).
 - `exploration/` — architectural sketches and prior-art surveys.
 - `daemon-v0/SCOPE.md` — the v0 deliverable scope.
