@@ -1,8 +1,16 @@
 # 0005. Sibling-relative paths for cross-repo references within the toolkit-anchored agent layer
 
 - **Date:** 2026-05-15
-- **Status:** Accepted
+- **Status:** Superseded by [0006](0006-toolkit-renamed-to-heddle-workspace.md) (2026-05-17)
 - **Deciders:** Hooman (principal), Claude Code (sparring partner)
+
+> **Note (2026-05-17):** The toolkit repo has since been renamed from
+> `heddle-agent-toolkit` to `heddle-workspace`. The sibling-relative
+> convention this ADR established is unchanged in principle — only the
+> directory name moves. See [0006](0006-toolkit-renamed-to-heddle-workspace.md)
+> for the rename rationale and the updated path examples. The body of
+> this ADR is preserved verbatim as a snapshot of the May-15 decision
+> context; do not edit it.
 
 ## Context
 
