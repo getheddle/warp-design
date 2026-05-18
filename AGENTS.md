@@ -9,7 +9,7 @@ Production code lives in a separate repo (planned: `getheddle/warp`).
 
 This file is the source of truth for agent guidance in *this* repo.
 Cross-repo guidance lives in
-**[`heddle-agent-toolkit/`](../heddle-agent-toolkit/)** — read those
+**[`heddle-workspace/`](../heddle-workspace/)** — read those
 anchors before proposing changes that affect `heddle` or `heddle-sdk`.
 
 ## Toolkit install
@@ -18,8 +18,8 @@ The toolkit is sibling to this repo. To populate `.claude/skills/` and
 `.claude/agents/` from a fresh clone:
 
 ```bash
-git clone https://github.com/getheddle/heddle-agent-toolkit.git ../heddle-agent-toolkit
-../heddle-agent-toolkit/install.sh .
+git clone https://github.com/getheddle/heddle-workspace.git ../heddle-workspace
+../heddle-workspace/install.sh .
 ```
 
 Until the toolkit is published, contributors will need a local sibling
@@ -30,11 +30,11 @@ named in this doc come from there.
 
 ### From the toolkit (shared)
 
-- `heddle-agent-toolkit/anchors/ECOSYSTEM.md` — repo map. warp-design's
+- `heddle-workspace/anchors/ECOSYSTEM.md` — repo map. warp-design's
   role is "informs the planned `warp` repo."
-- `heddle-agent-toolkit/anchors/PHILOSOPHY.md` — the design opinions
+- `heddle-workspace/anchors/PHILOSOPHY.md` — the design opinions
   that constrain what warp should and shouldn't become.
-- `heddle-agent-toolkit/anchors/INVARIANTS.md` — cross-repo invariant
+- `heddle-workspace/anchors/INVARIANTS.md` — cross-repo invariant
   C7 specifically: warp-design ADRs may *propose* changes to `heddle` or
   `heddle-sdk`; the implementation goes through those repos' normal PR
   flow.
@@ -48,7 +48,7 @@ named in this doc come from there.
   produces no released artifacts. `EVOLUTION_LOG.md` plus the
   numbered ADRs in `decisions/` serve as the durable design-history
   log. Sibling repos in the family (`heddle`, `heddle-sdk`,
-  `heddle-agent-toolkit`) do maintain `CHANGELOG.md` files for
+  `heddle-workspace`) do maintain `CHANGELOG.md` files for
   behavioural changes.
 - `decisions/` — ADRs (numbered, `NNNN-kebab-case-title.md`).
 - `exploration/` — architectural sketches and prior-art surveys.

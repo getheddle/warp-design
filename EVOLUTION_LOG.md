@@ -113,6 +113,30 @@ APIs, MCP in Swift, code signing + notarization. Notes will land in
 
 ---
 
+## 2026-05-17 — Toolkit renamed to `heddle-workspace`
+
+**Trigger.** The shared toolkit's mission widened beyond agent guidance:
+in addition to anchors/skills/subagents, it now also owns the
+workspace lifecycle (umbrella git repo, `.heddle-workspace.yaml`
+manifest, `bin/workspace` CLI). The name `heddle-agent-toolkit`
+obscured the second pillar.
+
+**Insight.** Repo names are read more often than READMEs. A name that
+reflects only half of a repo's scope creates a steady tax on every
+contributor who has to discover the other half.
+
+**Decision.** Rename `getheddle/heddle-agent-toolkit` →
+`getheddle/heddle-workspace`. GitHub auto-redirects clone URLs;
+sibling-relative path references update across the family in paired
+PRs. The sibling-relative convention from ADR 0005 is preserved
+unchanged — only the directory name moves.
+
+**Artifacts.**
+- [`decisions/0006-toolkit-renamed-to-heddle-workspace.md`](decisions/0006-toolkit-renamed-to-heddle-workspace.md) — formalizes the rename, supersedes [0005](decisions/0005-sibling-relative-paths-for-toolkit-references.md)
+- [`heddle-workspace/docs/WORKSPACE_SYNC_DESIGN.md`](https://github.com/getheddle/heddle-workspace/blob/main/docs/WORKSPACE_SYNC_DESIGN.md) — the workspace-lifecycle design that motivated the wider scope
+
+---
+
 ## Template for future entries
 
 ```markdown
