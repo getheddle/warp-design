@@ -64,6 +64,8 @@ named in this doc come from there.
   `decisions/0001-pursue-ad-hoc-cluster-orchestration.md` as the
   reference format. The toolkit's `/warp-adr` skill produces ADRs that
   match this format.
+- **Density:** Keep entries dense; every sentence in an ADR earns its
+  place.
 - **Evolution log:** Append-only, newest entries at the bottom. Each
   entry stamped with date + short title.
 - **Markdown:** GitHub-flavored. Diagrams as ASCII first; Mermaid if
